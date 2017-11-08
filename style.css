@@ -28,14 +28,13 @@ a:hover {
 }
 
 .container {
-  background: #AFC4E0;
-  width: 700px;
+  background: ;
+  width: 90%;
   margin: 20 auto;
 }
 
 .card {
   background: #ECECEC;
-  width: 600px;
   margin: 20 auto;
   padding: 30px;
   border-radius: 4px;
@@ -83,17 +82,20 @@ a:hover {
 }
 
 #sidebar {
-  background: #4A4A4A;
+  background: #ECECEC;
   position: fixed;
-  width: 90px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #sidebar li {
   list-style :none;
-  padding: 10px 10 px;
+  padding: 10px 10px;
   font-size: 24px;
   padding-left: 0;
 }
