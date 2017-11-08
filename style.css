@@ -29,7 +29,7 @@ a:hover {
 
 .container {
   background: #AFC4E0;
-  width: 900px;
+  width: 750px;
   margin: 20 auto;
 }
 
@@ -82,18 +82,22 @@ a:hover {
   color: #DAA520;
 }
 
-#sidebar li {
+#sidebar {
   background: #4A4A4A;
   position: fixed;
   width: 90px;
   left: 0;
   top: 0;
   bottom: 0;
+}
 
+#sidebar ul {
+  list-style :none;
+  padding-left: 0px;
 }
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 90px;
 }
 
 @media (max-width: 960px) {
