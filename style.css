@@ -29,7 +29,7 @@ a:hover {
 
 .container {
   background: #AFC4E0;
-  width: 750px;
+  width: 700px;
   margin: 20 auto;
 }
 
@@ -91,9 +91,11 @@ a:hover {
   bottom: 0;
 }
 
-#sidebar ul {
+#sidebar li {
   list-style :none;
-  padding-left: 0px;
+  padding: 10px 10 px;
+  font-size: 24px;
+  padding-left: 0;
 }
 
 #page-content {
