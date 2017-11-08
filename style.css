@@ -82,13 +82,14 @@ a:hover {
   color: #DAA520;
 }
 
-#sidebar {
+#sidebar li {
+  background: #4A4A4A;
   position: fixed;
-  width: 300px;
+  width: 90px;
   left: 0;
   top: 0;
   bottom: 0;
-  background: #4A4A4A;
+
 }
 
 #page-content {
