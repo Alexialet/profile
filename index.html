@@ -8,14 +8,24 @@
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img class="img-circle" src="images/profile_picture.jpg", width=200 alt="My profile picture">
-        <h1> <i class="em em-balloon"></i> Alexia Le Tarnec <i class="em em-balloon"></i> </h1>
-        <h2> Student @ Le Wagon</h2>
-        <p>  24 years old, from Paris. Studied in England <i class="em em-uk"></i> Product Owner at Zenchef <br> Looking for new adventures and projects <i class="em em-rocket"></i>. Film lover.<i class="em em-clapper"></i></br>
-        </p>
-        <a href="https://www.linkedin.com/in/alexialetarnec/" target="_blank" class="btn-blue"> See for yourself</a>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#summary"></a></li>
+        <li><a href="#favorite-movies"></a></li>
+        <li><a href="#footer"></a></li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div id="summary">
+        <div class="container">
+          <div class="card text-center">
+            <img class="img-circle" src="images/profile_picture.jpg", width=200 alt="My profile picture">
+            <h1> <i class="em em-balloon"></i> Alexia Le Tarnec <i class="em em-balloon"></i> </h1>
+            <h2> Student @ Le Wagon</h2>
+            <p>  24 years old, from Paris. Studied in England <i class="em em-uk"></i> Product Owner at Zenchef <br> Looking for new adventures and projects <i class="em em-rocket"></i>. Film lover.<i class="em em-clapper"></i></br>
+            </p>
+            <a href="https://www.linkedin.com/in/alexialetarnec/" target="_blank" class="btn-blue"> See for yourself</a>
+        </div>
       </div>
       <div class="card">
         <ul class="list-inline">
@@ -36,7 +46,8 @@
           </li>
         </ul>
       </div>
-      <div class="card">
+      <div id="favorite-movies">
+        <div class="card">
         <h2>My favorite movies</h2>
         <table>
           <tbody>
@@ -70,6 +81,8 @@
           </tbody>
         </table>
       </div>
+      </div>
+      <div id="footer">
       <div class="card">
         <h2>About this page</h2>
         <p>This page has been coded during the <a href="https://www.lewagon.com" target="_blank"> FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
@@ -79,6 +92,8 @@
           <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
         </ul>
       </div>
+      </div>
     </div>
+  </div>
   </body>
 </html>
